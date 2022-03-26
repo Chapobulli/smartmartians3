@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x4B2e1f709Df771F2111f74522F79A97F95aAf1D6",
+  "SCAN_LINK": "https://cronos.crypto.org/explorer/testnet3/tokens/0x4B2e1f709Df771F2111f74522F79A97F95aAf1D6",
+  "NETWORK": {
+    "NAME": "Cronos Chain",
+    "SYMBOL": "CRO",
+    "ID": 25
+  },
+  "NFT_NAME": "SMART MARTIANS NFT",
+  "SYMBOL": "MARTIAN",
+  "MAX_SUPPLY": 9000,
+  "WEI_COST": 20000000000000000000,
+  "DISPLAY_COST": 20,
+  "GAS_LIMIT": 205000,
+  "MARKETPLACE": "Ebisusbay",
+  "MARKETPLACE_LINK": "https://app.ebisusbay.com/collection/smart-mars",
+  "SHOW_BACKGROUND": true
+}
