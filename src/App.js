@@ -207,13 +207,13 @@ function App() {
         <s.SpacerSmall />
         <StyledButton
                 onClick={(e) => {
-                  window.open("https://agoracro.com/collection/smartmartians", "_blank");
+                  window.open("https://smrtmars.gitbook.io/product-docs/", "_blank");
                 }}
                 style={{
                   margin: "50px",
                 }}
               >
-                Agoracro
+                ROADMAP
               </StyledButton>
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
