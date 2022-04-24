@@ -444,6 +444,7 @@ function App() {
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
+          <s.Container>
           <StyledButton
                 onClick={(e) => {
                   window.open("https://smrtmars.gitbook.io/product-docs/", "_blank");
@@ -474,6 +475,7 @@ function App() {
               >
                 SMART CONTRACT
               </StyledButton>
+              </s.Container>
           <s.TextDescription
             style={{
               textAlign: "center",
