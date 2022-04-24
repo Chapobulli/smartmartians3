@@ -317,7 +317,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Mint Your {CONFIG.SYMBOL} now. costs only {CONFIG.DISPLAY_COST}{" "}
+                  Mint Your {CONFIG.SYMBOL} now. cost only {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
                 <s.SpacerXSmall />
