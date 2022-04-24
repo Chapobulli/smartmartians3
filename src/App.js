@@ -244,7 +244,7 @@ function App() {
               <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Check our Marketplaces.
+                  Official Marketplaces Links
                 </s.TextTitle>
             </s.TextDescription>
             <span
@@ -444,6 +444,36 @@ function App() {
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
+          <StyledButton
+                onClick={(e) => {
+                  window.open("https://smrtmars.gitbook.io/product-docs/", "_blank");
+                }}
+                style={{
+                  margin: "5px",
+                }}
+              >
+                ROADMAP
+              </StyledButton>
+              <StyledButton
+                onClick={(e) => {
+                  window.open("https://discord.gg/YQ3VEjsY2H", "_blank");
+                }}
+                style={{
+                  margin: "5px",
+                }}
+              >
+                DISCORD
+              </StyledButton>
+              <StyledButton
+                onClick={(e) => {
+                  window.open("https://cronos.org/explorer/token/0x4B2e1f709Df771F2111f74522F79A97F95aAf1D6/token-transfers", "_blank");
+                }}
+                style={{
+                  margin: "5px",
+                }}
+              >
+                SMART CONTRACT
+              </StyledButton>
           <s.TextDescription
             style={{
               textAlign: "center",
