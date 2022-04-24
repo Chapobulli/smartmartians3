@@ -215,6 +215,26 @@ function App() {
               >
                 ROADMAP
               </StyledButton>
+              <StyledButton
+                onClick={(e) => {
+                  window.open("https://discord.gg/YQ3VEjsY2H", "_blank");
+                }}
+                style={{
+                  margin: "50px",
+                }}
+              >
+                DISCORD
+              </StyledButton>
+              <StyledButton
+                onClick={(e) => {
+                  window.open("https://cronos.org/explorer/token/0x4B2e1f709Df771F2111f74522F79A97F95aAf1D6/token-transfers", "_blank");
+                }}
+                style={{
+                  margin: "50px",
+                }}
+              >
+                SMART CONTRACT
+              </StyledButton>
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
