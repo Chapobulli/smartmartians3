@@ -210,7 +210,7 @@ function App() {
                   window.open("https://smrtmars.gitbook.io/product-docs/", "_blank");
                 }}
                 style={{
-                  margin: "50px",
+                  margin: "5px",
                 }}
               >
                 ROADMAP
@@ -220,7 +220,7 @@ function App() {
                   window.open("https://discord.gg/YQ3VEjsY2H", "_blank");
                 }}
                 style={{
-                  margin: "50px",
+                  margin: "5px",
                 }}
               >
                 DISCORD
@@ -230,7 +230,7 @@ function App() {
                   window.open("https://cronos.org/explorer/token/0x4B2e1f709Df771F2111f74522F79A97F95aAf1D6/token-transfers", "_blank");
                 }}
                 style={{
-                  margin: "50px",
+                  margin: "5px",
                 }}
               >
                 SMART CONTRACT
@@ -271,6 +271,11 @@ function App() {
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
+              <s.TextTitle
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Check our Marketplaces.
+                </s.TextTitle>
             </s.TextDescription>
             <span
               style={{
