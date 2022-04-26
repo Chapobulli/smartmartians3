@@ -496,6 +496,7 @@ function App() {
               >
                 SMART CONTRACT
               </StyledButton>
+              <s.SpacerLarge />
           <s.TextDescription
             style={{
               textAlign: "center",
