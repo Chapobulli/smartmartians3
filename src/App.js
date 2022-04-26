@@ -443,7 +443,23 @@ function App() {
             {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
-          <s.SpacerSmall />
+          <s.SpacerSmall /> 
+          <s.TextTitle
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Stake Your Martians on crodex.app
+                </s.TextTitle>
+              
+              <StyledButton
+                style={{
+                  margin: "5px",
+                }}
+                onClick={(e) => {
+                  window.open("https://swap.crodex.app/#/rewards/nft/0xD490fB50c439e0EC4A2F3DE9ce269aBC2Da06b9b", "_blank");
+                }}
+              > Stake
+                
+              </StyledButton>
           <StyledButton
                 onClick={(e) => {
                   window.open("https://smrtmars.gitbook.io/product-docs/", "_blank");
