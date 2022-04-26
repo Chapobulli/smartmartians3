@@ -460,6 +460,7 @@ function App() {
               > Stake
                 
               </StyledButton>
+              <s.SpacerLarge />
               <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
