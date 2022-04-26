@@ -460,6 +460,11 @@ function App() {
               > Stake
                 
               </StyledButton>
+              <s.TextTitle
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Official Links
+                </s.TextTitle>
           <StyledButton
                 onClick={(e) => {
                   window.open("https://smrtmars.gitbook.io/product-docs/", "_blank");
