@@ -1,6 +1,6 @@
 {
   "CONTRACT_ADDRESS": "0x4B2e1f709Df771F2111f74522F79A97F95aAf1D6",
-  "SCAN_LINK": "https://cronos.crypto.org/explorer/testnet3/tokens/0x4B2e1f709Df771F2111f74522F79A97F95aAf1D6",
+  "SCAN_LINK": "https://cronos.org/explorer/token/0x4B2e1f709Df771F2111f74522F79A97F95aAf1D6/token-transfers",
   "NETWORK": {
     "NAME": "Cronos Chain",
     "SYMBOL": "CRO",
